@@ -1,0 +1,57 @@
+Git的步骤
+	1、在https://gitgub.com上个注册项目
+	2、创建仓库
+	3、创建项目本地文件夹
+	4、把远程仓库克隆到本地
+	  git clone https://github.com/账户/仓库.git
+	5、进入本地仓库
+	6、在本地仓库编辑、 开发项目
+	7、将本地仓库当前状态（开发、编辑的文件）加载到缓存
+	  git add
+	8、提交到本地仓库
+	  git commit  -m  "本次提交说明"
+	9、将本地仓库上传到远程仓库
+	  git push
+
+
+下载更新
+	1、检查远程主机是否设置
+	  git romote
+	2、如果未设置，设置远程主机
+	  git romote  add  origin
+		https://github.com/账户/仓库.git
+	3、载更新本地仓库
+	4、更新本地工作区（夏目所在文件夹）
+	  gitcheckouk
+
+
+
+恢复到某一次提交
+	1、先查看提交情况
+	 git log
+		或者 git log  ——oneline
+	2、恢复到某次提交
+	  git reset  标志号
+	3、更新本地工作区
+	  git checkout
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
